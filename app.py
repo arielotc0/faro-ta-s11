@@ -88,3 +88,5 @@ with pestana2:
 pestana3.write("Esta pestaña es para tu reto si es el 3, el 4 o el 5.")
 
 # >>> RETO 3, 4 y 5: si tu reto es el 3, el 4 o el 5, pega aquí el bloque de tu reto (solo uno)
+pestana3.subheader("¿Cuántos anuncios hay de cada tipo?")
+pestana3.bar_chart(filtrado["tipo"].value_counts(), color="#002A54")
